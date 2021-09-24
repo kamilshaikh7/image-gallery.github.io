@@ -4,11 +4,37 @@
     font-family: sans-serif;
 }
 body{
-    background-color: rgb(170, 252, 225);
+    background-color: rgba(115, 255, 220, 0.651);
 }
+
+.nav-bar{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(173, 216, 230, 0.555);
+    display: inline-block;
+}
+.nav-bar img{
+    width: 60px;
+    margin: 5px 10px;
+    cursor: pointer;
+}
+.nav-bar ul{
+    margin-right: 20px;
+    margin-top: 25px;
+    float: right;
+}
+.nav-bar ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+}
+
 .img-container{
     width: 100%;
-    margin: 100px auto;
+    margin: 130px auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
